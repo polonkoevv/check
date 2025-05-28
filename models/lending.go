@@ -1,8 +1,9 @@
+//models/lending.go
 package models
 
 import (
 	"time"
-	
+
 	"gorm.io/gorm"
 )
 
@@ -19,4 +20,3 @@ type Lending struct {
 	UpdatedAt  time.Time      `json:"updated_at"`
 	DeletedAt  gorm.DeletedAt `gorm:"index" json:"-"` // Поддержка soft delete
 }
-

@@ -1,8 +1,9 @@
+//models/book.go
 package models
 
 import (
 	"time"
-	
+
 	"gorm.io/gorm"
 )
 
@@ -18,4 +19,3 @@ type Book struct {
 	UpdatedAt time.Time      `json:"updated_at"`
 	DeletedAt gorm.DeletedAt `gorm:"index" json:"-"` // Поддержка soft delete
 }
-
