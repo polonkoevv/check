@@ -2,20 +2,75 @@
 package db
 
 import (
-	"gorm.io/driver/postgres"
-	"gorm.io/gorm"
+    "fmt"
+    "os"
+    "time"
+
+    "gorm.io/driver/postgres"
+    "gorm.io/gorm"
+    "gorm.io/gorm/logger"
 )
 
 // InitDB устанавливает соединение с базой данных PostgreSQL
 func InitDB() (*gorm.DB, error) {
-	// Обновите пароль в строке подключения
-	dsn := "host=localhost user=postgres password=efimka48 dbname=library port=5432 sslmode=disable"
+    // Получение параметров подключения из переменных окружения
+    host := getEnv("DB_HOST", "localhost")
+    user := getEnv("DB_USER", "postgres")
+    password := getEnv("DB_PASSWORD", "efimka48")
+    dbname := getEnv("DB_NAME", "library")
+    port := getEnv("DB_PORT", "5432")
 
-	// Подключение к базе данных
-	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
-	if err != nil {
-		return nil, err
-	}
+    // Формирование строки подключения
+    dsn := fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s sslmode=disable",
+        host, user, password, dbname, port)
 
-	return db, nil
+    // Ожидание готовности БД с повторами
+    var db *gorm.DB
+    var err error
+
+    retryCount := 5
+    retryDelay := 5 * time.Second
+
+    for i := 0; i < retryCount; i++ {
+        db, err = gorm.Open(postgres.Open(dsn), &gorm.Config{
+            Logger: logger.Default.LogMode(logger.Info),
+        })
+        if err == nil {
+            break
+        }
+
+        fmt.Printf("Не удалось подключиться к базе данных (попытка %d/%d): %v\n",
+            i+1, retryCount, err)
+
+        if i < retryCount-1 {
+            fmt.Printf("Повторная попытка через %v...\n", retryDelay)
+            time.Sleep(retryDelay)
+        }
+    }
+
+    if err != nil {
+        return nil, fmt.Errorf("после %d попыток не удалось подключиться к базе данных: %w",
+            retryCount, err)
+    }
+
+    // Настройка пула соединений
+    sqlDB, err := db.DB()
+    if err != nil {
+        return nil, err
+    }
+
+    sqlDB.SetMaxIdleConns(10)
+    sqlDB.SetMaxOpenConns(100)
+    sqlDB.SetConnMaxLifetime(time.Hour)
+
+    return db, nil
+}
+
+// getEnv получает значение переменной окружения или возвращает значение по умолчанию
+func getEnv(key, defaultValue string) string {
+    value := os.Getenv(key)
+    if value == "" {
+        return defaultValue
+    }
+    return value
 }

@@ -1,0 +1,16 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+library
+*.test
+*.out
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+postgres-data/
+*.db
