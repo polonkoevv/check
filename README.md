@@ -38,17 +38,19 @@ docker-compose logs -f
 
 ## API
 ### Эндпоинты
-GET /api/books - получить список всех книг
-GET /api/books/:id - получить книгу по ID
-POST /api/books - создать новую книгу
-PUT /api/books/:id - обновить книгу
-DELETE /api/books/:id - удалить книгу
+- GET /api/books - получить список всех книг
+- GET /api/books/:id - получить книгу по ID
+- POST /api/books - создать новую книгу
+- PUT /api/books/:id - обновить книгу
+- DELETE /api/books/:id - удалить книгу
 
 ### Создание новой книги
+```bash
 curl -X POST http://localhost:8080/api/books \
   -H "Content-Type: application/json" \
   -d '{"title":"Война и мир","author":"Лев Толстой","isbn":"1234567890"}'
-
+```
 ### Получение списка книг
+```bash
 curl http://localhost:8080/api/books
-
+```
