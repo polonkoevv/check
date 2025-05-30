@@ -74,7 +74,10 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "docker-compose.prod.yml"
           target: "~/golibrary"
-
+      - name: Copy data to server
+        run:
+          scp -r ./ssl ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:~/golibrary
+          scp -r ./nginx.conf ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:~/golibrary
       - name: Deploy to server
         uses: appleboy/ssh-action@master
         env:
