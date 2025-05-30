@@ -134,3 +134,59 @@ go run main.go --config-type yaml --config ./config.yaml
 - Также логирование зависит от переменной Env в конфигуарционном файле. 
 - При значении dev логирование начинается с уровня debug, при значении prod с уровня info.
 
+# Практическая работа №6
+1) Создать базовую модель пользователя
+ - У нас уже была создана модель пользователя, дополним ее полями Username и Password:
+```go 
+type User struct {
+	ID        uint           `gorm:"primaryKey" json:"id"`
+	Name      string         `gorm:"size:255;not null" json:"name"`
+	Email     string         `gorm:"size:255;uniqueIndex;not null" json:"email"`
+	Username  string         `gorm:"size:255;uniqueIndex;not null" json:"username"`
+	Password  string         `gorm:"size:255;not null" json:"password"`
+	Lendings  []Lending      `gorm:"foreignKey:UserID" json:"-"`
+	CreatedAt time.Time      `json:"created_at"`
+	UpdatedAt time.Time      `json:"updated_at"`
+	DeletedAt gorm.DeletedAt `gorm:"index" json:"-"`
+}
+```
+- Добавили методы для создания пользователя, получения пользователя по username, авторизации по паролю
+
+2) Реализовать хеширование пароля
+ - Для метода хэширования и проверки пароля добавили ограничения по составу и длине пароля
+
+3) Генерация и проверка JWT
+- Реализовали кастомные claims для токена
+- В методе для проверки токена реализовали проверку на валидность (соответствие секрету, метод подписи, срок действия)
+
+4) Реализация эндпоинтов для аутентификации
+ - Добавили эндпоинт для авторизации
+
+5) Middleware для проверки JWT
+- Усовершенствовали middleware (проверка на формат токена, передача данных о токене и пользователе в контексте)
+
+6) Добавить защищенные маршруты 
+- Добавили защищенный маршрут /api/protected.
+
+## Тестирование:
+
+<image src="./images/practice 6/passcheck1.png" alt="Описание изображения">
+
+[Ошибка при создании пользователя](/images/passcheck1.png)
+
+<image src="./images/practice 6/createUser.png" alt="Описание изображения">
+
+[Создание пользователя](/images/createUser.png)
+
+<image src="./images/practice 6/login.png" alt="Описание изображения">
+
+[Авторизация](/images/login.png)
+
+<image src="./images/practice 6/prot2.png" alt="Описание изображения">
+
+[Ошибка в токене](/images/prot2.png)
+
+
+<image src="./images/practice 6/prot1.png" alt="Описание изображения">
+
+[Доступ до закрытого эндпоинта](/images/prot1.png)

@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"io"
+	"net/http"
 	"os"
 	"time"
 
@@ -126,6 +127,7 @@ func main() {
 	{
 		// Инициализация обработчика книг
 		bookHandler := handlers.NewBookHandler(database)
+		userHandler := handlers.NewUserHandler(database)
 
 		// Маршруты для книг
 		api.GET("/books", bookHandler.GetAllBooks)
@@ -133,6 +135,14 @@ func main() {
 		api.POST("/books", bookHandler.CreateBook)
 		api.PUT("/books/:id", bookHandler.UpdateBook)
 		api.DELETE("/books/:id", bookHandler.DeleteBook)
+		api.GET("/protected", middleware.AuthMiddleware(), func(c *gin.Context) {
+			c.JSON(http.StatusOK, gin.H{"message": "Authorized access"})
+		})
+
+		api.POST("/user", userHandler.CreateUser)
+		api.POST("/login", userHandler.Login)
+		api.GET("/user/:username", userHandler.GetUserByUsername)
+
 	}
 
 	// Подключение Swagger документации

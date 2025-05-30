@@ -88,3 +88,645 @@
   "port": "8080",
   "time": "2025-05-30T23:51:20+03:00"
 }
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-30T20:54:36Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "30a29ecd59d4",
+  "latency": 0,
+  "level": "warning",
+  "method": "GET",
+  "msg": "GET / 404 3.159µs",
+  "path": "/",
+  "status": 404,
+  "time": "2025-05-30T20:54:54Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "30a29ecd59d4",
+  "latency": 0,
+  "level": "warning",
+  "method": "GET",
+  "msg": "GET /favicon.ico 404 2.833µs",
+  "path": "/favicon.ico",
+  "status": 404,
+  "time": "2025-05-30T20:54:54Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "30a29ecd59d4",
+  "latency": 0,
+  "level": "warning",
+  "method": "GET",
+  "msg": "GET / 404 2.399µs",
+  "path": "/",
+  "status": 404,
+  "time": "2025-05-30T20:55:00Z"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:03:07+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "GET",
+  "msg": "GET /api/protected 401 0s",
+  "path": "/api/protected",
+  "status": 401,
+  "time": "2025-05-31T00:03:36+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/user 404 0s",
+  "path": "/api/user",
+  "status": 404,
+  "time": "2025-05-31T00:04:53+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/user 404 0s",
+  "path": "/api/user",
+  "status": 404,
+  "time": "2025-05-31T00:05:50+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:06:20+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 8,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/user 201 8.4077ms",
+  "path": "/api/user",
+  "status": 201,
+  "time": "2025-05-31T00:06:29+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:07:12+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 69,
+  "level": "error",
+  "method": "POST",
+  "msg": "POST /api/user 500 69.4844ms",
+  "path": "/api/user",
+  "status": 500,
+  "time": "2025-05-31T00:07:16+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 65,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/user 201 64.5453ms",
+  "path": "/api/user",
+  "status": 201,
+  "time": "2025-05-31T00:08:16+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:13:26+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:13:57+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 3,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/login 401 3.4519ms",
+  "path": "/api/login",
+  "status": 401,
+  "time": "2025-05-31T00:14:53+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 1,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/login 401 664.2µs",
+  "path": "/api/login",
+  "status": 401,
+  "time": "2025-05-31T00:15:03+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:15:35+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 1,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/login 401 1.2589ms",
+  "path": "/api/login",
+  "status": 401,
+  "time": "2025-05-31T00:15:50+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:16:07+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 2,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/login 401 1.5552ms",
+  "path": "/api/login",
+  "status": 401,
+  "time": "2025-05-31T00:16:12+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:16:52+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 2,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/login 401 1.6054ms",
+  "path": "/api/login",
+  "status": 401,
+  "time": "2025-05-31T00:16:56+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 1,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/login?username=testuser\u0026password=B2e0r0s4 401 832.7µs",
+  "path": "/api/login?username=testuser\u0026password=B2e0r0s4",
+  "status": 401,
+  "time": "2025-05-31T00:17:54+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:20:42+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 62,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/login?username=testuser\u0026password=B2e0r0s4 200 61.5357ms",
+  "path": "/api/login?username=testuser\u0026password=B2e0r0s4",
+  "status": 200,
+  "time": "2025-05-31T00:20:46+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 65,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/login 200 65.4527ms",
+  "path": "/api/login",
+  "status": 200,
+  "time": "2025-05-31T00:20:51+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/protected 404 0s",
+  "path": "/api/protected",
+  "status": 404,
+  "time": "2025-05-31T00:21:51+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "GET",
+  "msg": "GET /api/protected 401 0s",
+  "path": "/api/protected",
+  "status": 401,
+  "time": "2025-05-31T00:21:54+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "GET",
+  "msg": "GET /api/protected 401 0s",
+  "path": "/api/protected",
+  "status": 401,
+  "time": "2025-05-31T00:22:42+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:23:02+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 1,
+  "level": "warning",
+  "method": "GET",
+  "msg": "GET /api/protected 401 535.1µs",
+  "path": "/api/protected",
+  "status": 401,
+  "time": "2025-05-31T00:23:06+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:27:47+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 60,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/login 200 60.1336ms",
+  "path": "/api/login",
+  "status": 200,
+  "time": "2025-05-31T00:27:52+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/protected 200 0s",
+  "path": "/api/protected",
+  "status": 200,
+  "time": "2025-05-31T00:27:58+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:36:41+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 6,
+  "level": "error",
+  "method": "POST",
+  "msg": "POST /api/user 500 5.6662ms",
+  "path": "/api/user",
+  "status": 500,
+  "time": "2025-05-31T00:36:50+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 1,
+  "level": "error",
+  "method": "POST",
+  "msg": "POST /api/user 500 1.1011ms",
+  "path": "/api/user",
+  "status": 500,
+  "time": "2025-05-31T00:36:56+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 1,
+  "level": "error",
+  "method": "POST",
+  "msg": "POST /api/user 500 1.0375ms",
+  "path": "/api/user",
+  "status": 500,
+  "time": "2025-05-31T00:37:23+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 2,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/user 201 2.088ms",
+  "path": "/api/user",
+  "status": 201,
+  "time": "2025-05-31T00:37:25+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 62,
+  "level": "error",
+  "method": "POST",
+  "msg": "POST /api/user 500 62.3637ms",
+  "path": "/api/user",
+  "status": 500,
+  "time": "2025-05-31T00:37:53+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 62,
+  "level": "error",
+  "method": "POST",
+  "msg": "POST /api/user 500 62.0132ms",
+  "path": "/api/user",
+  "status": 500,
+  "time": "2025-05-31T00:38:02+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 63,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/user 201 62.8771ms",
+  "path": "/api/user",
+  "status": 201,
+  "time": "2025-05-31T00:38:05+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:40:22+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "error",
+  "method": "POST",
+  "msg": "POST /api/user 500 0s",
+  "path": "/api/user",
+  "status": 500,
+  "time": "2025-05-31T00:40:37+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 65,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/user 201 64.896ms",
+  "path": "/api/user",
+  "status": 201,
+  "time": "2025-05-31T00:40:46+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:54:44+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 1,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/user 400 507.1µs",
+  "path": "/api/user",
+  "status": 400,
+  "time": "2025-05-31T00:54:51+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/user 400 0s",
+  "path": "/api/user",
+  "status": 400,
+  "time": "2025-05-31T00:54:55+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:57:53+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/user 400 0s",
+  "path": "/api/user",
+  "status": 400,
+  "time": "2025-05-31T00:58:01+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/user 400 0s",
+  "path": "/api/user",
+  "status": 400,
+  "time": "2025-05-31T00:58:04+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 67,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/user 201 66.8948ms",
+  "path": "/api/user",
+  "status": 201,
+  "time": "2025-05-31T00:58:07+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-31T00:59:30+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 63,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/login 200 62.8161ms",
+  "path": "/api/login",
+  "status": 200,
+  "time": "2025-05-31T00:59:43+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/protected 200 0s",
+  "path": "/api/protected",
+  "status": 200,
+  "time": "2025-05-31T00:59:54+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/user 400 0s",
+  "path": "/api/user",
+  "status": 400,
+  "time": "2025-05-31T01:00:15+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 63,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/user 201 63.1867ms",
+  "path": "/api/user",
+  "status": 201,
+  "time": "2025-05-31T01:00:59+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 61,
+  "level": "warning",
+  "method": "POST",
+  "msg": "POST /api/login 401 60.5019ms",
+  "path": "/api/login",
+  "status": 401,
+  "time": "2025-05-31T01:01:33+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 62,
+  "level": "info",
+  "method": "POST",
+  "msg": "POST /api/login 200 61.9758ms",
+  "path": "/api/login",
+  "status": 200,
+  "time": "2025-05-31T01:01:46+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/protected 200 0s",
+  "path": "/api/protected",
+  "status": 200,
+  "time": "2025-05-31T01:02:17+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "warning",
+  "method": "GET",
+  "msg": "GET /api/protected 401 0s",
+  "path": "/api/protected",
+  "status": 401,
+  "time": "2025-05-31T01:02:57+03:00"
+}
