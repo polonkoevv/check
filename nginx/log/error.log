@@ -1,0 +1,2 @@
+2025/05/30 20:29:50 [emerg] 1#1: host not found in upstream "library-app-two:8080" in /etc/nginx/nginx.conf:32
+2025/05/30 20:40:53 [emerg] 1#1: host not found in upstream "library-app-two:8080" in /etc/nginx/nginx.conf:32

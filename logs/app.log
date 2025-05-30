@@ -1,0 +1,90 @@
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-30T20:40:53Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "b725699f0153",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.074592ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-05-30T20:41:18Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "b725699f0153",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.032006ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-05-30T20:41:18Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "b725699f0153",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 651.682µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-05-30T20:41:18Z"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-30T23:44:58+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 681.4µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-05-30T23:45:15+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 0s",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-05-30T23:45:15+03:00"
+}
+{
+  "client_ip": "::1",
+  "errors": "",
+  "hostname": "Caesar",
+  "latency": 0,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 0s",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-05-30T23:45:15+03:00"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-05-30T23:51:20+03:00"
+}

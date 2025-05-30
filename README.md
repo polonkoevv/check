@@ -72,7 +72,7 @@ curl http://localhost:8080/swagger/index.html
 # GOBrokers
 
 
-# Практическая рабаот №4
+# Практическая работа №4
 
 1) Установлен Nginx
   - Был создан отдельный сервис в docker-compose.yml для nginx
@@ -89,3 +89,48 @@ curl http://localhost:8080/swagger/index.html
   - Скрыты версии сервеного ПО
 5) Логирование и мониторинг
   - Создан отдельный сервис в docker-compose.yml для fail2ban, установлена свзяь с nginx, настроена конфигурация согласно примеру
+
+
+# Практическая работа №5
+
+1) Конфигурация
+- Релализована конфигурация при помощи .env и yaml. 
+- Для выбора типа конфигурационного файла используются флаги --config (путь до файла конфигурации) и --config-type (тип файла конфигурации). 
+- Если не указан тип или путь, то стандартно используется .env. Пример запуска:
+```bash
+go run main.go --config-type env --config ./.env 
+```
+
+```bash
+go run main.go --config-type yaml --config ./config.yaml 
+```
+Примерный файл для yaml и .env:
+```yaml
+    env: 
+    app_port: 
+    db_host: 
+    db_user: 
+    db_password: 
+    db_name: 
+    db_port: 
+```
+
+```env
+  ENV=
+  APP_ENV=
+  APP_PORT=
+  DB_HOST=
+  DB_USER=
+  DB_PASSWORD=
+  DB_NAME=
+  DB_PORT=
+```
+
+2) Логирование
+- Реализовано логирование при помощи logrus. 
+- Оно ведется и в консоль и в файл logs/app.log. 
+- Настроена связь с docker-compose при помощи тома. 
+- Для добавление логгера в http-клиент gin используется middleware. 
+- Также логирование зависит от переменной Env в конфигуарционном файле. 
+- При значении dev логирование начинается с уровня debug, при значении prod с уровня info.
+
