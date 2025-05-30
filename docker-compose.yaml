@@ -2,16 +2,92 @@
 version: '3.8'
 
 services:
-  app:
+
+  web:
+    image: nginx
+    container_name: library-web
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+      - ./nginx/log:/var/log/nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    command: [nginx-debug, '-g', 'daemon off;']
+    networks:
+      - library-network
+    depends_on:
+      - app_one
+      - app_two
+      - app_three
+
+  fail2ban:
+    image: crazymax/fail2ban:latest
+    container_name: library-fail2ban
+    network_mode: "host"
+    privileged: true
+    environment:
+      - TZ=Europe/Moscow
+      - F2B_LOG_TARGET=/var/log/fail2ban.log
+      - F2B_LOG_LEVEL=INFO
+    volumes:
+      - ./nginx/log:/var/log/nginx:ro
+      - ./fail2ban/jail.local:/etc/fail2ban/jail.local:ro
+      - ./fail2ban/data:/var/lib/fail2ban
+    restart: unless-stopped
+    depends_on:
+      - web
+
+  app_one:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: library-app
+    container_name: library-app-one
     restart: always
     depends_on:
       - db
     ports:
       - "8080:8080"
+    environment:
+      - DB_HOST=db
+      - DB_USER=postgres
+      - DB_PASSWORD=efimka48
+      - DB_NAME=library
+      - DB_PORT=5432
+      - GIN_MODE=release
+    networks:
+      - library-network
+
+  app_two:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: library-app-two
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - "8081:8080"
+    environment:
+      - DB_HOST=db
+      - DB_USER=postgres
+      - DB_PASSWORD=efimka48
+      - DB_NAME=library
+      - DB_PORT=5432
+      - GIN_MODE=release
+    networks:
+      - library-network
+  
+  app_three:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: library-app-three
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - "8082:8080"
     environment:
       - DB_HOST=db
       - DB_USER=postgres

@@ -9,13 +9,13 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 
 	// Вместо абсолютных путей используем относительные
-	"library/db"
+	"library/app/db"
 
-	"library/handlers"
-	"library/models"
+	"library/app/handlers"
+	"library/app/models"
 
 	// Для Swagger
-	_ "library/docs"
+	_ "library/app/docs"
 )
 
 // @title Library API

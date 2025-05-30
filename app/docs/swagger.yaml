@@ -21,14 +21,14 @@ definitions:
     - isbn
     - title
     type: object
-host: localhost:8080
+host: localhost:80
 info:
   contact: {}
   description: API для управления библиотекой
   title: Library API
   version: "1.0"
 paths:
-  /api/books:
+  /books:
     get:
       description: Получить список всех книг в библиотеке
       produces:
@@ -70,7 +70,7 @@ paths:
       summary: Создать новую книгу
       tags:
       - books
-  /api/books/{id}:
+  /books/{id}:
     delete:
       description: Удалить книгу из библиотеки
       parameters:

@@ -1,4 +1,4 @@
-//handlers/book_handler.go
+// handlers/book_handler.go
 package handlers
 
 import (
@@ -8,7 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 
-	"library/models"
+	"library/app/models"
 )
 
 // BookHandler содержит методы для обработки запросов, связанных с книгами

@@ -1,15 +1,88 @@
 version: '3.8'
 
 services:
-  app:
+  web:
+    image: nginx
+    container_name: library-web
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+      - ./nginx/log:/var/log/nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    command: [nginx-debug, '-g', 'daemon off;']
+    networks:
+      - library-network
+    depends_on:
+      - app_one
+      - app_two
+      - app_three
+
+  fail2ban:
+    image: crazymax/fail2ban:latest
+    container_name: library-fail2ban
+    network_mode: "host"
+    privileged: true
+    environment:
+      - TZ=Europe/Moscow
+      - F2B_LOG_TARGET=/var/log/fail2ban.log
+      - F2B_LOG_LEVEL=INFO
+    volumes:
+      - ./nginx/log:/var/log/nginx:ro
+      - ./fail2ban/jail.local:/etc/fail2ban/jail.local:ro
+      - ./fail2ban/data:/var/lib/fail2ban
+    restart: unless-stopped
+    depends_on:
+      - web
+
+  app_one:
     image: ${DOCKER_IMAGE}:latest
-    container_name: golibrary
+    container_name: library-app-one
     restart: always
     depends_on:
       db:
         condition: service_healthy
     ports:
       - "8080:8080"
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - GIN_MODE=release
+    networks:
+      - library-network
+
+  app_two:
+    image: ${DOCKER_IMAGE}:latest
+    container_name: library-app-two
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8081:8080"
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - GIN_MODE=release
+    networks:
+      - library-network
+
+  app_three:
+    image: ${DOCKER_IMAGE}:latest
+    container_name: library-app-three
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8082:8080"
     environment:
       - DB_HOST=db
       - DB_PORT=5432
@@ -44,4 +117,4 @@ networks:
 
 volumes:
   postgres-data:
-    name: library-postgres-data 
+    name: library-postgres-data

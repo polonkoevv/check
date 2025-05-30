@@ -1,0 +1,11 @@
+[DEFAULT]
+banaction = iptables-multiport
+banaction_allports = iptables-allports
+
+[nginx-http-auth]
+enabled = true
+filter = nginx-http-auth
+action = iptables-multiport[name=HTTP, port="http,https", protocol=tcp]
+logpath = /var/log/nginx/error.log
+bantime = 600
+maxretry = 5
