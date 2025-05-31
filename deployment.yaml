@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: golibrary
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: golibrary
+  template:
+    metadata:
+      labels:
+        app: golibrary
+    spec:
+      containers:
+        - name: golibrary
+          image: bersnakx/golibrary:latest
+          ports:
+            - containerPort: 8080
