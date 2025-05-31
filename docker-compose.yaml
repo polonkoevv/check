@@ -18,6 +18,8 @@ services:
       - library-network
     depends_on:
       - app_one
+      - app_two
+      - app_three
 
 
   fail2ban:
@@ -59,7 +61,7 @@ services:
     networks:
       - library-network
 
-    app_two:
+  app_two:
     build:
       context: .
       dockerfile: Dockerfile
@@ -81,7 +83,7 @@ services:
     networks:
       - library-network
     
-    app_three:
+  app_three:
     build:
       context: .
       dockerfile: Dockerfile

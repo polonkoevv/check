@@ -1,3 +1,4 @@
 2025/05/30 20:29:50 [emerg] 1#1: host not found in upstream "library-app-two:8080" in /etc/nginx/nginx.conf:32
 2025/05/30 20:40:53 [emerg] 1#1: host not found in upstream "library-app-two:8080" in /etc/nginx/nginx.conf:32
 2025/05/30 20:54:58 [error] 25#25: *14 access forbidden by rule, client: 172.19.0.1, server: localhost, request: "GET /admin HTTP/1.1", host: "localhost"
+2025/05/31 07:01:37 [emerg] 1#1: host not found in upstream "library-app-two:8080" in /etc/nginx/nginx.conf:32
