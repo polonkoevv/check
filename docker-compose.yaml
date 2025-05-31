@@ -45,6 +45,7 @@ services:
       dockerfile: Dockerfile
     container_name: library-app-one
     restart: always
+    privileged: true
     depends_on:
       - db
     ports:
@@ -67,6 +68,7 @@ services:
       dockerfile: Dockerfile
     container_name: library-app-two
     restart: always
+    privileged: true
     depends_on:
       - db
     ports:
@@ -89,6 +91,7 @@ services:
       dockerfile: Dockerfile
     container_name: library-app-three
     restart: always
+    privileged: true
     depends_on:
       - db
     ports:
