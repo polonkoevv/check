@@ -6,7 +6,7 @@
         "contact": {},
         "version": "1.0"
     },
-    "host": "127.0.0.1",
+    "host": "83.222.17.152",
     "basePath": "/api",
     "paths": {
         "/books": {

@@ -1168,3 +1168,1161 @@
   "status": 200,
   "time": "2025-06-06T22:39:34Z"
 }
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-06-06T22:41:35Z"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-06-06T22:41:35Z"
+}
+{
+  "level": "info",
+  "msg": "Запуск сервера",
+  "port": "8080",
+  "time": "2025-06-06T22:41:35Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /swagger/index.html 200 255.924µs",
+  "path": "/swagger/index.html",
+  "status": 200,
+  "time": "2025-06-06T22:41:45Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /swagger/swagger-ui.css 200 611.947µs",
+  "path": "/swagger/swagger-ui.css",
+  "status": 200,
+  "time": "2025-06-06T22:41:45Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 2,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /swagger/swagger-ui-bundle.js 200 1.835993ms",
+  "path": "/swagger/swagger-ui-bundle.js",
+  "status": 200,
+  "time": "2025-06-06T22:41:45Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 2,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /swagger/swagger-ui-standalone-preset.js 200 2.235509ms",
+  "path": "/swagger/swagger-ui-standalone-preset.js",
+  "status": 200,
+  "time": "2025-06-06T22:41:45Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /swagger/favicon-32x32.png 200 146.686µs",
+  "path": "/swagger/favicon-32x32.png",
+  "status": 200,
+  "time": "2025-06-06T22:41:45Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /swagger/favicon-32x32.png 200 154.187µs",
+  "path": "/swagger/favicon-32x32.png",
+  "status": 200,
+  "time": "2025-06-06T22:41:45Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /swagger/doc.json 200 430.603µs",
+  "path": "/swagger/doc.json",
+  "status": 200,
+  "time": "2025-06-06T22:41:45Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.420108ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:41:48Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 2,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.853685ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:00Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.382488ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:02Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.116925ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:03Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 821.09µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:03Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 2,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.619524ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:04Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 842.982µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:04Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 619.349µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:04Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 797.904µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:04Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.227921ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:05Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.093901ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:05Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 909.367µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:05Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 2,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 2.010085ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:05Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 716.463µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:06Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 667.598µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:06Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 607.801µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:42:06Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.410154ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:46:48Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 970.737µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:47:12Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 864.386µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:48:16Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.834µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:28Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.649µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:46Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.867µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:46Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 2.094µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:47Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.618µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:47Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.976µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:47Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.704µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:47Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.682µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:47Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.835µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:47Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.683µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:48Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.769µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:48Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.52µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:48Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 2.443µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:48Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 2.367µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:48Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.563µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:49Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.585µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:49Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.367µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:49Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.736µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:49Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.846µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:49Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.693µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:49Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 2.073µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:50Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.584µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:50Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.563µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:50Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.899µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:50Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.954µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:50Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.921µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:51Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.9µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:51Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.835µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:51Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.705µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:51Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.835µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:51Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.867µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:52Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.823µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:57Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.835µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:57Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.878µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:57Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.823µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:57Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.835µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:57Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.888µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:57Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.596µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:58Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.856µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:58Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.77µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:58Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.791µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:48:58Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.552µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:07Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.769µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:07Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.899µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:07Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 2.268µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:08Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.781µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:08Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.802µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:08Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 2.377µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:08Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.704µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:08Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.715µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:09Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.953µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:09Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.498µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:39Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.801µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:39Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.574µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:39Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.66µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:39Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.769µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:39Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 2.291µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:40Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.682µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:40Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.639µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:40Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 2.192µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:40Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 0,
+  "level": "warning",
+  "method": "HEAD",
+  "msg": "HEAD /api/books 404 1.65µs",
+  "path": "/api/books",
+  "status": 404,
+  "time": "2025-06-06T22:49:40Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 3,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 2.57539ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T22:53:54Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 7,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 7.022039ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T23:03:16Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 6,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 5.72131ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T23:03:33Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.482347ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T23:03:34Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 2,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.543608ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T23:03:31Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "1fb5b23d47c8",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 957.213µs",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T23:03:32Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "bfdab45a4aa4",
+  "latency": 2,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.595905ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T23:04:06Z"
+}
+{
+  "client_ip": "172.19.0.1",
+  "errors": "",
+  "hostname": "98dab99f7be2",
+  "latency": 1,
+  "level": "info",
+  "method": "GET",
+  "msg": "GET /api/books 200 1.162111ms",
+  "path": "/api/books",
+  "status": 200,
+  "time": "2025-06-06T23:04:10Z"
+}
