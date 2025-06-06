@@ -21,7 +21,7 @@ definitions:
     - isbn
     - title
     type: object
-host: localhost:80
+host: 127.0.0.1
 info:
   contact: {}
   description: API для управления библиотекой
